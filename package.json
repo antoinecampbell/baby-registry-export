@@ -1,0 +1,11 @@
+{
+  "name": "baby-registry-export",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open --env AMAZON_EMAIL=$AMAZON_EMAIL,AMAZON_PASSWORD=$AMAZON_PASSWORD,AMAZON_REGISTRY_ID=$AMAZON_REGISTRY_ID",
+    "cypress:run": "cypress run --browser firefox --headed --env AMAZON_EMAIL=$AMAZON_EMAIL,AMAZON_PASSWORD=$AMAZON_PASSWORD,AMAZON_REGISTRY_ID=$AMAZON_REGISTRY_ID"
+  },
+  "devDependencies": {
+    "cypress": "^11.0.1"
+  }
+}
